@@ -1,0 +1,37 @@
+﻿@model Product
+
+@{
+    Product product = Model; 
+}
+
+<h1>Details @product.Name</h1>
+
+<br/>
+
+<a asp-controller="Product" asp-action="Index">Back to Products</a>
+
+<br/>
+<br/>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@product.Id</td>
+            <td>@product.Name</td>
+            <td>@product.Price</td>
+            <td>@product.Description</td>
+            <td>
+                <img src="/images/@product.ImageUrl" alt="@product.Name" height="100"/>
+            </td>
+        </tr>
+    </tbody>
+</table>
