@@ -1,7 +1,9 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\fatma.jpeg
 wwwroot\images\laptob.jpeg
 wwwroot\images\milk.jpeg
+wwwroot\images\mohamed.jpeg
 wwwroot\images\phone.jpeg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css

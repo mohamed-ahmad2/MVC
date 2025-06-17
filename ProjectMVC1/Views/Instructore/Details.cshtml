@@ -1,0 +1,26 @@
+﻿@model ProjectMVC1.Models.Instructore
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Instructor Details</h1>
+
+<div class="card mt-4" style="max-width: 600px; margin: auto;">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <img src="~/images/@Model.Image" class="card-img" alt="@Model.Name">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Name</h5>
+                <p class="card-text"><strong>Address:</strong> @Model.Address</p>
+                <p class="card-text"><strong>Salary:</strong> @Model.Salary</p>
+                <p class="card-text"><strong>Department:</strong> @Model.Department?.Name</p>
+                <p class="card-text"><strong>Course:</strong> @Model.Course?.Name</p>
+                <button onclick="history.back()" class="btn btn-secondary mt-3">Back</button>
+            </div>
+        </div>
+    </div>
+</div>
