@@ -40,8 +40,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvcmVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Dot Net/learn/ProjectMVC1/ProjectMVC1/Views/Instructore/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvcmVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Dot Net/learn/ProjectMVC1/ProjectMVC1/Views/Instructore/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvcmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dot Net/learn/ProjectMVC1/ProjectMVC1/Views/Instructore/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvcmVcTmV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Dot Net/learn/ProjectMVC1/ProjectMVC1/Views/Shared/Error.cshtml]
