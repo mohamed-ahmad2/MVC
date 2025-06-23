@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 using ProjectMVC1.Models;
+using X.PagedList.Extensions;
 
 namespace ProjectMVC1.Controllers
 {
@@ -14,20 +14,29 @@ namespace ProjectMVC1.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int? page, string search)
         {
-            var allInstructors = _context.Instructores
-            .Include(i => i.Department)
-            .Include(i => i.Course)
-            .ToList();
+            int pageSize = 3;
+            int pageNumber = page ?? 1;
 
-            if (allInstructors == null)
+            var instructors = _context.Instructores
+                .Include(i => i.Department)
+                .Include(i => i.Course)
+                .AsQueryable();
+
+            if (!string.IsNullOrEmpty(search))
             {
-                return NotFound();
+                instructors = instructors.Where(i =>
+                    i.Name.Contains(search) || i.Address.Contains(search));
             }
 
-            return View(allInstructors);
+            var pagedList = instructors.ToPagedList(pageNumber, pageSize);
+
+            ViewBag.Search = search;
+            return View(pagedList);
         }
+
+
 
         public IActionResult Details(int id) {
             var instructor = _context.Instructores
@@ -56,6 +65,7 @@ namespace ProjectMVC1.Controllers
                 DepartmentId = instructor.DepartmentId,
                 CourseId = instructor.CourseId,
                 Image = instructor.Image,
+                OldImage = instructor.Image,
                 Departments = _context.Departments.ToList(),
                 Courses = _context.Courses.ToList(),
             };
@@ -71,26 +81,41 @@ namespace ProjectMVC1.Controllers
                 return BadRequest();
             }
 
-            if(string.IsNullOrWhiteSpace(updatedInstructore.Name))
+            if (string.IsNullOrWhiteSpace(updatedInstructore.Name))
             {
                 updatedInstructore.Departments = _context.Departments.ToList();
                 updatedInstructore.Courses = _context.Courses.ToList();
                 return View("Edit", updatedInstructore);
             }
 
-            var orginal = _context.Instructores.FirstOrDefault(i => i.InstructoreId == id);
+            if (updatedInstructore.ImageFile != null)
+            {
+                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(updatedInstructore.ImageFile.FileName);
+                string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    updatedInstructore.ImageFile.CopyTo(stream);
+                }
+
+                updatedInstructore.Image = fileName;
+            }
+            else
+            {
+                updatedInstructore.Image = updatedInstructore.OldImage!;
+            }
+
+                var orginal = _context.Instructores.FirstOrDefault(i => i.InstructoreId == id);
             if (orginal == null)
                 return NotFound();
 
             orginal.Name = updatedInstructore.Name;
             orginal.Salary = updatedInstructore.Salary;
             orginal.Address = updatedInstructore.Address;
-            orginal.Image = updatedInstructore.Image;
             orginal.DepartmentId = updatedInstructore.DepartmentId;
             orginal.CourseId = updatedInstructore.CourseId;
+            orginal.Image = updatedInstructore.Image;
 
-            _context.Attach(orginal);
-            _context.Entry(orginal).State = EntityState.Modified;
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
@@ -104,11 +129,21 @@ namespace ProjectMVC1.Controllers
         }
 
         public IActionResult NewInstructor(InstrctrWithDprtmntViewModel NewInstructore) {
-            if (NewInstructore.Name == null) {
+            if (string.IsNullOrWhiteSpace(NewInstructore.Name) || NewInstructore.ImageFile == null) {
                 NewInstructore.Departments = _context.Departments.ToList();
                 NewInstructore.Courses = _context.Courses.ToList();
                 return View("New", NewInstructore);
             }
+
+            string fileName = Guid.NewGuid().ToString() + Path.GetExtension(NewInstructore.ImageFile.FileName);
+            string uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
+
+            using (var stream = new FileStream(uploadPath, FileMode.Create))
+            {
+                NewInstructore.ImageFile.CopyTo(stream);
+            }
+
+            NewInstructore.Image = fileName;
 
             Instructore instructor = new Instructore
             {
@@ -121,6 +156,27 @@ namespace ProjectMVC1.Controllers
             };
 
             _context.Instructores.Add(instructor);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Delete(int id)
+        {
+            var instructor = _context.Instructores
+            .Include(i => i.Department)
+            .Include(i => i.Course).FirstOrDefault(i => i.InstructoreId == id);
+            if (instructor == null)
+            {
+                return NotFound();
+            }
+
+            var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", instructor.Image);
+            if (System.IO.File.Exists(imagePath))
+            {
+                System.IO.File.Delete(imagePath);
+            }
+
+            _context.Instructores.Remove(instructor);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }

@@ -81,13 +81,11 @@ E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\System.Composition.Hos
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\System.Composition.Runtime.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\System.Composition.TypedParts.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
-E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\System.Formats.Asn1.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\System.Memory.Data.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\System.Runtime.Caching.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
-E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\System.Text.Json.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\af\Humanizer.resources.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\ar\Humanizer.resources.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\az\Humanizer.resources.dll
@@ -334,3 +332,10 @@ E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\refint\ProjectMVC1.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\ProjectMVC1.pdb
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\ProjectMVC1.genruntimeconfig.cache
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\ref\ProjectMVC1.dll
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\rpswa.dswa.cache.json
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\rjimswa.dswa.cache.json
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\X.PagedList.dll
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\X.PagedList.Mvc.Core.dll
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\ProjectMVC1.MvcApplicationPartsAssemblyInfo.cs

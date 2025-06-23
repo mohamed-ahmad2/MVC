@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "E:\\Dot Net\\learn\\ProjectMVC1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\controllers\\instructorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\controllers\\instructorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\instructore\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\views\\instructore\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\instructore\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\views\\instructore\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\instructore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\views\\instructore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\models\\instructore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\models\\instructore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\models\\instrctrwithdprtmntviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\models\\instrctrwithdprtmntviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\instructore\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\views\\instructore\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\instructore\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\views\\instructore\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Migrations\\20250616142646_UpdateCourseRelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectMVC1\\Migrations\\20250616142646_UpdateCourseRelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\migrations\\20250616142906_updatecourserelation2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\migrations\\20250616142906_updatecourserelation2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "New.cshtml",
-              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\New.cshtml",
-              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Instructore\\New.cshtml",
-              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\New.cshtml",
-              "RelativeToolTip": "ProjectMVC1\\Views\\Instructore\\New.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T13:40:25.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InstrctrWithDprtmntViewModel.cs",
-              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Models\\InstrctrWithDprtmntViewModel.cs",
-              "RelativeDocumentMoniker": "ProjectMVC1\\Models\\InstrctrWithDprtmntViewModel.cs",
-              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Models\\InstrctrWithDprtmntViewModel.cs",
-              "RelativeToolTip": "ProjectMVC1\\Models\\InstrctrWithDprtmntViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T02:41:35.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Instructore\\Edit.cshtml",
-              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\Edit.cshtml",
-              "RelativeToolTip": "ProjectMVC1\\Views\\Instructore\\Edit.cshtml",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T02:11:19.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\Details.cshtml",
-              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Instructore\\Details.cshtml",
-              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\Details.cshtml",
-              "RelativeToolTip": "ProjectMVC1\\Views\\Instructore\\Details.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-17T16:10:37.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\Index.cshtml",
               "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Instructore\\Index.cshtml",
               "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\Index.cshtml",
               "RelativeToolTip": "ProjectMVC1\\Views\\Instructore\\Index.cshtml",
-              "ViewState": "AgIAACIAAAAAAAAAAAAUwDEAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwFEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-17T15:15:24.497Z",
+              "WhenOpened": "2025-06-23T11:46:44.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20250616142906_UpdateCourseRelation2.cs",
-              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Migrations\\20250616142906_UpdateCourseRelation2.cs",
-              "RelativeDocumentMoniker": "ProjectMVC1\\Migrations\\20250616142906_UpdateCourseRelation2.cs",
-              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Migrations\\20250616142906_UpdateCourseRelation2.cs",
-              "RelativeToolTip": "ProjectMVC1\\Migrations\\20250616142906_UpdateCourseRelation2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T14:29:06.726Z"
+              "DocumentIndex": 2,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\New.cshtml",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Instructore\\New.cshtml",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\New.cshtml",
+              "RelativeToolTip": "ProjectMVC1\\Views\\Instructore\\New.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T11:45:20.637Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250616142646_UpdateCourseRelation.cs",
-              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Migrations\\20250616142646_UpdateCourseRelation.cs",
-              "RelativeDocumentMoniker": "ProjectMVC1\\Migrations\\20250616142646_UpdateCourseRelation.cs",
-              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Migrations\\20250616142646_UpdateCourseRelation.cs",
-              "RelativeToolTip": "ProjectMVC1\\Migrations\\20250616142646_UpdateCourseRelation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "InstrctrWithDprtmntViewModel.cs",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Models\\InstrctrWithDprtmntViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Models\\InstrctrWithDprtmntViewModel.cs",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Models\\InstrctrWithDprtmntViewModel.cs",
+              "RelativeToolTip": "ProjectMVC1\\Models\\InstrctrWithDprtmntViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T14:26:47.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InstructoreController.cs",
-              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Controllers\\InstructoreController.cs",
-              "RelativeDocumentMoniker": "ProjectMVC1\\Controllers\\InstructoreController.cs",
-              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Controllers\\InstructoreController.cs",
-              "RelativeToolTip": "ProjectMVC1\\Controllers\\InstructoreController.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAUwHsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T14:11:19.142Z",
+              "WhenOpened": "2025-06-23T11:44:08.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Instructore.cs",
-              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Models\\Instructore.cs",
-              "RelativeDocumentMoniker": "ProjectMVC1\\Models\\Instructore.cs",
-              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Models\\Instructore.cs",
-              "RelativeToolTip": "ProjectMVC1\\Models\\Instructore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T01:21:21.793Z"
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjectMVC1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T11:34:20.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Course\\Index.cshtml",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "ProjectMVC1\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T11:24:43.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }
