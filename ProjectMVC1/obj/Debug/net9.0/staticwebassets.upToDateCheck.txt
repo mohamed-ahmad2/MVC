@@ -1,6 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\338323df-d885-4bf4-802d-7df532566d96.webp
+wwwroot\images\6628e67a-cadd-4df5-a653-40e923451862.ico
 wwwroot\images\fatma.jpeg
 wwwroot\images\laptob.jpeg
 wwwroot\images\milk.jpeg
@@ -130,3 +131,4 @@ E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\wwwroot\lib\jquery\dist\jquery.slim.js
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\wwwroot\lib\jquery\dist\jquery.slim.min.js
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\wwwroot\lib\jquery\dist\jquery.slim.min.map
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\wwwroot\lib\jquery\LICENSE.txt
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\wwwroot\images\6628e67a-cadd-4df5-a653-40e923451862.ico

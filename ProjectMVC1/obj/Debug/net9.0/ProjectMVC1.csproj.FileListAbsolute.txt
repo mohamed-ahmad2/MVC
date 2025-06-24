@@ -339,3 +339,4 @@ E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\rjsmcshtml.dswa.cache.
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\X.PagedList.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\X.PagedList.Mvc.Core.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\ProjectMVC1.MvcApplicationPartsAssemblyInfo.cs
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\compressed\luxe8pu7up-dgzm31407l.gz

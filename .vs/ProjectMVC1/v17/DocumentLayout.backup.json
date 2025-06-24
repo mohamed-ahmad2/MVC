@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Dot Net\\learn\\ProjectMVC1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\instructore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\views\\instructore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\models\\instrctrwithdprtmntviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\models\\instrctrwithdprtmntviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\instructore\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\views\\instructore\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\instructore\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\views\\instructore\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\controllers\\instructorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\controllers\\instructorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,45 +30,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Instructore\\Index.cshtml",
-              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\Index.cshtml",
-              "RelativeToolTip": "ProjectMVC1\\Views\\Instructore\\Index.cshtml",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAQwFEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T11:46:44.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "New.cshtml",
-              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\New.cshtml",
-              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Instructore\\New.cshtml",
-              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\New.cshtml",
-              "RelativeToolTip": "ProjectMVC1\\Views\\Instructore\\New.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T11:45:20.637Z",
+              "Title": "InstructoreController.cs",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Controllers\\InstructoreController.cs",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Controllers\\InstructoreController.cs",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Controllers\\InstructoreController.cs",
+              "RelativeToolTip": "ProjectMVC1\\Controllers\\InstructoreController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAwHoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:46:03.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InstrctrWithDprtmntViewModel.cs",
-              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Models\\InstrctrWithDprtmntViewModel.cs",
-              "RelativeDocumentMoniker": "ProjectMVC1\\Models\\InstrctrWithDprtmntViewModel.cs",
-              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Models\\InstrctrWithDprtmntViewModel.cs",
-              "RelativeToolTip": "ProjectMVC1\\Models\\InstrctrWithDprtmntViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:44:08.669Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Instructore\\Edit.cshtml",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\Edit.cshtml",
+              "RelativeToolTip": "ProjectMVC1\\Views\\Instructore\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T20:23:20.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\New.cshtml",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Instructore\\New.cshtml",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\New.cshtml",
+              "RelativeToolTip": "ProjectMVC1\\Views\\Instructore\\New.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T11:45:20.637Z",
               "EditorCaption": ""
             },
             {
@@ -81,8 +85,7 @@
               "RelativeToolTip": "ProjectMVC1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T11:34:20.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T11:34:20.034Z"
             },
             {
               "$type": "Document",
@@ -94,12 +97,7 @@
               "RelativeToolTip": "ProjectMVC1\\Views\\Course\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T11:24:43.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2025-06-23T11:24:43.83Z"
             }
           ]
         }

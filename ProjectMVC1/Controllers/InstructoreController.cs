@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ProjectMVC1.Models;
 using X.PagedList.Extensions;
@@ -70,6 +71,9 @@ namespace ProjectMVC1.Controllers
                 Courses = _context.Courses.ToList(),
             };
 
+            ViewBag.DeptList = new SelectList(_context.Departments, "DepartmentId", "Name");
+            ViewBag.CourseList = new SelectList(_context.Courses, "CourseId", "Name");
+
             return View(viewModel);
         }
 
@@ -123,15 +127,15 @@ namespace ProjectMVC1.Controllers
         public IActionResult New()
         {
             InstrctrWithDprtmntViewModel instructoreViewModel = new InstrctrWithDprtmntViewModel();
-            instructoreViewModel.Departments = _context.Departments.ToList();
-            instructoreViewModel.Courses = _context.Courses.ToList();
+            ViewBag.DeptList = new SelectList(_context.Departments, "DepartmentId", "Name");
+            ViewBag.CourseList = new SelectList(_context.Courses, "CourseId", "Name");
             return View(instructoreViewModel);
         }
 
         public IActionResult NewInstructor(InstrctrWithDprtmntViewModel NewInstructore) {
             if (string.IsNullOrWhiteSpace(NewInstructore.Name) || NewInstructore.ImageFile == null) {
-                NewInstructore.Departments = _context.Departments.ToList();
-                NewInstructore.Courses = _context.Courses.ToList();
+                ViewBag.DeptList = new SelectList(_context.Departments, "DepartmentId", "Name");
+                ViewBag.CourseList = new SelectList(_context.Courses, "CourseId", "Name");
                 return View("New", NewInstructore);
             }
 
