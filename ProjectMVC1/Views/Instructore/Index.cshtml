@@ -66,7 +66,7 @@
 <br />
 <br />
 
-<div class="d-flex justify-content-center mt-4">
+<nav aria-label="Page navigation">
     @Html.PagedListPager(Model, page => Url.Action("Index", new { page, search = ViewBag.Search }),
     new PagedListRenderOptions
     {
@@ -76,10 +76,11 @@
         DisplayLinkToNextPage = PagedListDisplayMode.Always,
         DisplayLinkToIndividualPages = true,
         DisplayPageCountAndCurrentLocation = false,
-        UlElementClasses = new[] { "pagination" },
+        UlElementClasses = new[] { "pagination", "justify-content-center" },
         LiElementClasses = new[] { "page-item" },
         PageClasses = new[] { "page-link" }
     })
-</div>
+</nav>
+
 
 
