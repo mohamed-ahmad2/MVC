@@ -2,11 +2,13 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\338323df-d885-4bf4-802d-7df532566d96.webp
 wwwroot\images\6628e67a-cadd-4df5-a653-40e923451862.ico
+wwwroot\images\ali.jpg
 wwwroot\images\e7df8423-890a-498e-83a0-e972c092983c.webp
-wwwroot\images\fatma.jpeg
 wwwroot\images\laptob.jpeg
 wwwroot\images\milk.jpeg
 wwwroot\images\mohamed.jpeg
+wwwroot\images\n.jpeg
+wwwroot\images\noura.jpg
 wwwroot\images\OIP.webp
 wwwroot\images\phone.jpeg
 wwwroot\js\site.js

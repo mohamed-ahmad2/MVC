@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjectMVC1.Models;
 
@@ -10,9 +11,11 @@ using ProjectMVC1.Models;
 namespace ProjectMVC1.Migrations
 {
     [DbContext(typeof(MVCDbContext))]
-    partial class MVCDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250626112407_AddMinDegreeValidation")]
+    partial class AddMinDegreeValidation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -61,8 +64,8 @@ namespace ProjectMVC1.Migrations
                     b.Property<int>("CourseId")
                         .HasColumnType("int");
 
-                    b.Property<double>("Degree")
-                        .HasColumnType("float");
+                    b.Property<int>("Degree")
+                        .HasColumnType("int");
 
                     b.Property<int>("TraineeId")
                         .HasColumnType("int");

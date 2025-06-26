@@ -325,7 +325,6 @@ E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\staticwebassets.build.
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\staticwebassets.build.json.cache
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\staticwebassets.development.json
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\ProjectM.C9814C40.Up2Date
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\ProjectMVC1.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\refint\ProjectMVC1.dll
@@ -340,3 +339,4 @@ E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\X.PagedList.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\X.PagedList.Mvc.Core.dll
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\ProjectMVC1.MvcApplicationPartsAssemblyInfo.cs
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\compressed\luxe8pu7up-dgzm31407l.gz
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
