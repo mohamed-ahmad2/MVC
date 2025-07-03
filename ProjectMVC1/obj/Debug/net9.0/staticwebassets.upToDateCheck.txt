@@ -3,7 +3,9 @@ wwwroot\favicon.ico
 wwwroot\images\338323df-d885-4bf4-802d-7df532566d96.webp
 wwwroot\images\6628e67a-cadd-4df5-a653-40e923451862.ico
 wwwroot\images\ali.jpg
+wwwroot\images\bc1a0e75-0974-4116-a4d0-00510f69f857.ico
 wwwroot\images\e7df8423-890a-498e-83a0-e972c092983c.webp
+wwwroot\images\ff8b974b-341b-4f5d-a4df-f8e2732fcbbf.ico
 wwwroot\images\laptob.jpeg
 wwwroot\images\milk.jpeg
 wwwroot\images\mohamed.jpeg
@@ -135,3 +137,5 @@ E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\wwwroot\lib\jquery\dist\jquery.slim.min
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\wwwroot\lib\jquery\dist\jquery.slim.min.map
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\wwwroot\lib\jquery\LICENSE.txt
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\wwwroot\images\6628e67a-cadd-4df5-a653-40e923451862.ico
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\wwwroot\images\bc1a0e75-0974-4116-a4d0-00510f69f857.ico
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\wwwroot\images\ff8b974b-341b-4f5d-a4df-f8e2732fcbbf.ico

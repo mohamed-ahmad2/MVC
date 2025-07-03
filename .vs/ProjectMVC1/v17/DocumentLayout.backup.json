@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "E:\\Dot Net\\learn\\ProjectMVC1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\trainee\\showresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\views\\trainee\\showresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\controllers\\traineecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\controllers\\traineecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\controllers\\instructorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\controllers\\instructorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\repository\\entityrepository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\repository\\entityrepository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\repository\\entityrepository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\repository\\entityrepository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\repository\\entityrepository\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\repository\\entityrepository\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\repository\\entityrepository\\iinstructorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\repository\\entityrepository\\iinstructorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\repository\\entityrepository\\instructorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\repository\\entityrepository\\instructorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\instructore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\views\\instructore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\repository\\entityrepository\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\repository\\entityrepository\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\trainee\\showresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|solutionrelative:projectmvc1\\views\\trainee\\showresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD65E321-6A89-4B0F-AA82-4FA00321BF77}|ProjectMVC1\\ProjectMVC1.csproj|e:\\dot net\\learn\\projectmvc1\\projectmvc1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,27 +79,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ShowResult.cshtml",
-              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Trainee\\ShowResult.cshtml",
-              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Trainee\\ShowResult.cshtml",
-              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Trainee\\ShowResult.cshtml",
-              "RelativeToolTip": "ProjectMVC1\\Views\\Trainee\\ShowResult.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Controllers\\CourseController.cs",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "ProjectMVC1\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T13:55:30.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Instructore\\Index.cshtml",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Instructore\\Index.cshtml",
+              "RelativeToolTip": "ProjectMVC1\\Views\\Instructore\\Index.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAE4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-26T13:09:15.817Z",
+              "WhenOpened": "2025-07-03T12:53:40.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Program.cs",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Program.cs",
+              "RelativeToolTip": "ProjectMVC1\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T12:44:04.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\EntityRepository\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Repository\\EntityRepository\\DepartmentRepository.cs",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\EntityRepository\\DepartmentRepository.cs",
+              "RelativeToolTip": "ProjectMVC1\\Repository\\EntityRepository\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T12:30:54.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\EntityRepository\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Repository\\EntityRepository\\IDepartmentRepository.cs",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\EntityRepository\\IDepartmentRepository.cs",
+              "RelativeToolTip": "ProjectMVC1\\Repository\\EntityRepository\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T12:30:28.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ProjectMVC1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-26T13:05:14.823Z",
+              "Title": "InstructoreController.cs",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Controllers\\InstructoreController.cs",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Controllers\\InstructoreController.cs",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Controllers\\InstructoreController.cs",
+              "RelativeToolTip": "ProjectMVC1\\Controllers\\InstructoreController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T10:58:24.162Z",
               "EditorCaption": ""
             },
             {
@@ -61,6 +161,109 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\EntityRepository\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Repository\\EntityRepository\\ICourseRepository.cs",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\EntityRepository\\ICourseRepository.cs",
+              "RelativeToolTip": "ProjectMVC1\\Repository\\EntityRepository\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T11:31:22.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\EntityRepository\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Repository\\EntityRepository\\CourseRepository.cs",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\EntityRepository\\CourseRepository.cs",
+              "RelativeToolTip": "ProjectMVC1\\Repository\\EntityRepository\\CourseRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T11:31:10.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IInstructoreRepository.cs",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\EntityRepository\\IInstructoreRepository.cs",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Repository\\EntityRepository\\IInstructoreRepository.cs",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\EntityRepository\\IInstructoreRepository.cs",
+              "RelativeToolTip": "ProjectMVC1\\Repository\\EntityRepository\\IInstructoreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T10:58:02.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InstructoreRepository.cs",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\EntityRepository\\InstructoreRepository.cs",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Repository\\EntityRepository\\InstructoreRepository.cs",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\EntityRepository\\InstructoreRepository.cs",
+              "RelativeToolTip": "ProjectMVC1\\Repository\\EntityRepository\\InstructoreRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T10:57:38.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Repository\\IUnitOfWork.cs",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\IUnitOfWork.cs",
+              "RelativeToolTip": "ProjectMVC1\\Repository\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T10:56:52.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Repository\\UnitOfWork.cs",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "ProjectMVC1\\Repository\\UnitOfWork.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T10:56:36.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShowResult.cshtml",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Trainee\\ShowResult.cshtml",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Trainee\\ShowResult.cshtml",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Trainee\\ShowResult.cshtml",
+              "RelativeToolTip": "ProjectMVC1\\Views\\Trainee\\ShowResult.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T13:09:15.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjectMVC1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjectMVC1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T13:05:14.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "TraineeWithCourseViewModel.cs",
               "DocumentMoniker": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Models\\TraineeWithCourseViewModel.cs",
               "RelativeDocumentMoniker": "ProjectMVC1\\Models\\TraineeWithCourseViewModel.cs",
@@ -68,8 +271,7 @@
               "RelativeToolTip": "ProjectMVC1\\Models\\TraineeWithCourseViewModel.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAIwCUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T11:51:14.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T11:51:14.524Z"
             },
             {
               "$type": "Document",
@@ -79,7 +281,7 @@
               "RelativeDocumentMoniker": "ProjectMVC1\\Controllers\\TraineeController.cs",
               "ToolTip": "E:\\Dot Net\\learn\\ProjectMVC1\\ProjectMVC1\\Controllers\\TraineeController.cs",
               "RelativeToolTip": "ProjectMVC1\\Controllers\\TraineeController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwDwAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAADwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T11:20:11.582Z",
               "EditorCaption": ""

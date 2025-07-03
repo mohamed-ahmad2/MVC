@@ -34,7 +34,13 @@
                 <td>@instructor.InstructoreId</td>
                 <td>@instructor.Name</td>
                 <td>
-                    <img src="~/images/@instructor.Image" alt="@instructor.Name" class="img-thumbnail" style="width:100px; height:100px;" />
+                    <img src="~/images/@instructor.Image"
+                         alt="@instructor.Name"
+                         width="100"
+                         height="100"
+                         loading="lazy"
+                         class="img-thumbnail"
+                         style="object-fit: cover;" />
                 </td>
                 <td>@instructor.Address</td>
                 <td>@instructor.Salary</td>
@@ -57,11 +63,11 @@
                         </button>
                     </form>
                 </td>
-
             </tr>
         }
     </tbody>
 </table>
+
 <a asp-action="New" asp-controller="Instructore" class="btn btn-success btn-sm">New Instructore</a>
 <br />
 <br />
@@ -81,6 +87,3 @@
         PageClasses = new[] { "page-link" }
     })
 </nav>
-
-
-

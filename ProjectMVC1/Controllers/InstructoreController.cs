@@ -1,18 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 using ProjectMVC1.Models;
+using ProjectMVC1.Repository;
 using X.PagedList.Extensions;
 
 namespace ProjectMVC1.Controllers
 {
     public class InstructoreController : Controller
     {
-        private readonly MVCDbContext _context;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public InstructoreController(MVCDbContext context)
+        public InstructoreController(IUnitOfWork unitOfWork)
         {
-            _context = context;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index(int? page, string search)
@@ -20,15 +20,15 @@ namespace ProjectMVC1.Controllers
             int pageSize = 3;
             int pageNumber = page ?? 1;
 
-            var instructors = _context.Instructores
-                .Include(i => i.Department)
-                .Include(i => i.Course)
-                .AsQueryable();
+            IEnumerable<Instructore> instructors;
 
             if (!string.IsNullOrEmpty(search))
             {
-                instructors = instructors.Where(i =>
-                    i.Name.Contains(search) || i.Address.Contains(search));
+                instructors = _unitOfWork.InstructoreRepository.GetBySearch(search);
+            }
+            else
+            {
+                instructors = _unitOfWork.InstructoreRepository.GetAll();
             }
 
             var pagedList = instructors.ToPagedList(pageNumber, pageSize);
@@ -39,10 +39,9 @@ namespace ProjectMVC1.Controllers
 
 
 
+
         public IActionResult Details(int id) {
-            var instructor = _context.Instructores
-            .Include(i => i.Department)
-            .Include(i => i.Course).FirstOrDefault(i => i.InstructoreId == id);
+            var instructor = _unitOfWork.InstructoreRepository.GetByIdWithIncludes(id);
 
             if (instructor == null)
             {
@@ -53,7 +52,7 @@ namespace ProjectMVC1.Controllers
         }
 
         public IActionResult Edit(int id) {
-            var instructor = _context.Instructores.FirstOrDefault(i => i.InstructoreId == id);
+            var instructor = _unitOfWork.InstructoreRepository.GetById(id);
             if (instructor == null)
                 return NotFound();
 
@@ -67,12 +66,12 @@ namespace ProjectMVC1.Controllers
                 CourseId = instructor.CourseId,
                 Image = instructor.Image,
                 OldImage = instructor.Image,
-                Departments = _context.Departments.ToList(),
-                Courses = _context.Courses.ToList(),
+                Departments = _unitOfWork.DepartmentRepository.GetAll().ToList(),
+                Courses = _unitOfWork.CourseRepository.GetAll().ToList(),
             };
 
-            ViewBag.DeptList = new SelectList(_context.Departments, "DepartmentId", "Name");
-            ViewBag.CourseList = new SelectList(_context.Courses, "CourseId", "Name");
+            ViewBag.DeptList = new SelectList(viewModel.Departments, "DepartmentId", "Name");
+            ViewBag.CourseList = new SelectList(viewModel.Courses, "CourseId", "Name");
 
             return View(viewModel);
         }
@@ -87,8 +86,8 @@ namespace ProjectMVC1.Controllers
 
             if (string.IsNullOrWhiteSpace(updatedInstructore.Name))
             {
-                updatedInstructore.Departments = _context.Departments.ToList();
-                updatedInstructore.Courses = _context.Courses.ToList();
+                updatedInstructore.Departments = _unitOfWork.DepartmentRepository.GetAll().ToList();
+                updatedInstructore.Courses = _unitOfWork.CourseRepository.GetAll().ToList();
                 return View("Edit", updatedInstructore);
             }
 
@@ -109,7 +108,7 @@ namespace ProjectMVC1.Controllers
                 updatedInstructore.Image = updatedInstructore.OldImage!;
             }
 
-                var orginal = _context.Instructores.FirstOrDefault(i => i.InstructoreId == id);
+            var orginal = _unitOfWork.InstructoreRepository.GetById(id);
             if (orginal == null)
                 return NotFound();
 
@@ -120,22 +119,31 @@ namespace ProjectMVC1.Controllers
             orginal.CourseId = updatedInstructore.CourseId;
             orginal.Image = updatedInstructore.Image;
 
-            _context.SaveChanges();
+            _unitOfWork.SaveChanges();
             return RedirectToAction("Index");
         }
 
         public IActionResult New()
         {
-            InstrctrWithDprtmntViewModel instructoreViewModel = new InstrctrWithDprtmntViewModel();
-            ViewBag.DeptList = new SelectList(_context.Departments, "DepartmentId", "Name");
-            ViewBag.CourseList = new SelectList(_context.Courses, "CourseId", "Name");
+            InstrctrWithDprtmntViewModel instructoreViewModel = new InstrctrWithDprtmntViewModel
+            {
+                Departments = _unitOfWork.DepartmentRepository.GetAll().ToList(),
+                Courses = _unitOfWork.CourseRepository.GetAll().ToList()
+            };
+
+            ViewBag.DeptList = new SelectList(instructoreViewModel.Departments, "DepartmentId", "Name");
+            ViewBag.CourseList = new SelectList(instructoreViewModel.Courses, "CourseId", "Name");
+
             return View(instructoreViewModel);
         }
 
         public IActionResult NewInstructor(InstrctrWithDprtmntViewModel NewInstructore) {
             if (string.IsNullOrWhiteSpace(NewInstructore.Name) || NewInstructore.ImageFile == null) {
-                ViewBag.DeptList = new SelectList(_context.Departments, "DepartmentId", "Name");
-                ViewBag.CourseList = new SelectList(_context.Courses, "CourseId", "Name");
+                NewInstructore.Departments = _unitOfWork.DepartmentRepository.GetAll().ToList();
+                NewInstructore.Courses = _unitOfWork.CourseRepository.GetAll().ToList();
+
+                ViewBag.DeptList = new SelectList(NewInstructore.Departments, "DepartmentId", "Name");
+                ViewBag.CourseList = new SelectList(NewInstructore.Courses, "CourseId", "Name");
                 return View("New", NewInstructore);
             }
 
@@ -159,16 +167,14 @@ namespace ProjectMVC1.Controllers
                 CourseId = NewInstructore.CourseId
             };
 
-            _context.Instructores.Add(instructor);
-            _context.SaveChanges();
+            _unitOfWork.InstructoreRepository.Add(instructor);
+            _unitOfWork.SaveChanges();
             return RedirectToAction("Index");
         }
 
         public IActionResult Delete(int id)
         {
-            var instructor = _context.Instructores
-            .Include(i => i.Department)
-            .Include(i => i.Course).FirstOrDefault(i => i.InstructoreId == id);
+            var instructor = _unitOfWork.InstructoreRepository.GetByIdWithIncludes(id);
             if (instructor == null)
             {
                 return NotFound();
@@ -180,8 +186,8 @@ namespace ProjectMVC1.Controllers
                 System.IO.File.Delete(imagePath);
             }
 
-            _context.Instructores.Remove(instructor);
-            _context.SaveChanges();
+            _unitOfWork.InstructoreRepository.Remove(instructor);
+            _unitOfWork.SaveChanges();
             return RedirectToAction("Index");
         }
     }

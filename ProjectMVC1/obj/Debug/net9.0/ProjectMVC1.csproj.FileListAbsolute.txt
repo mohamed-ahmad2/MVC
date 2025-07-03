@@ -340,3 +340,5 @@ E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\bin\Debug\net9.0\X.PagedList.Mvc.Core.d
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\ProjectMVC1.MvcApplicationPartsAssemblyInfo.cs
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\compressed\luxe8pu7up-dgzm31407l.gz
 E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\compressed\wnd77r9dsg-5hdtzykftn.gz
+E:\Dot Net\learn\ProjectMVC1\ProjectMVC1\obj\Debug\net9.0\compressed\a5w4nz1jfn-dwjucdb8ih.gz

@@ -1,24 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 using ProjectMVC1.Models;
+using ProjectMVC1.Repository;
 
 namespace ProjectMVC1.Controllers
 {
     public class CourseController : Controller
     {
-        readonly MVCDbContext _context;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public CourseController(MVCDbContext mVCDbContext)
+        public CourseController(IUnitOfWork unitOfWork)
         {
-            _context = mVCDbContext;
+            _unitOfWork = unitOfWork;
         }
+
 
         public IActionResult Index()
         {
-            var courses = _context.Courses
-                .Include(i => i.Department)
-                .ToList();
+            var courses = _unitOfWork.CourseRepository.GetAllWithIncludes().ToList();
             return View(courses);
         }
 
@@ -36,18 +35,20 @@ namespace ProjectMVC1.Controllers
         public IActionResult NewCourse()
         {
             Course course = new Course();
-            ViewBag.DeptList = new SelectList(_context.Departments, "DepartmentId", "Name");
+            var departments = _unitOfWork.DepartmentRepository.GetAll();
+            ViewBag.DeptList = new SelectList(departments, "DepartmentId", "Name");
             return View(course);
         }
 
         [HttpPost]
         public IActionResult AddCourse(Course course) {
             if (ModelState.IsValid) {
-                _context.Courses.Add(course);
-                _context.SaveChanges();
+                _unitOfWork.CourseRepository.Add(course);
+                _unitOfWork.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.DeptList = new SelectList(_context.Departments, "DepartmentId", "Name");
+            var departments = _unitOfWork.DepartmentRepository.GetAll();
+            ViewBag.DeptList = new SelectList(departments, "DepartmentId", "Name");
             return View("NewCourse", course);
         }
     }
